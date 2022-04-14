@@ -12,7 +12,8 @@ def lygu():
         global tuscia
         striwar = str(eval(tuscia))
         stringas.set(striwar)
-        tuscia = ""
+        tuscia = striwar
+
     except:
         stringas.set("klaida")
         tuscia = ""
